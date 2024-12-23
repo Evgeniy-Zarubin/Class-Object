@@ -15,14 +15,25 @@ public class Book {
     }
 
     public String getTitleBook() {
-        return this.titleBook;
+        return titleBook;
     }
+
+    public void setTitleBook(String titleBook) {
+        this.titleBook = titleBook;
+    }
+
     public Author getNameAuthor() {
-        return this.nameAuthor;
+        return nameAuthor;
     }
-    public int getPublicationYear () {
-        return this.publicationYear;
+
+    public void setNameAuthor(Author nameAuthor) {
+        this.nameAuthor = nameAuthor;
     }
+
+    public int getPublicationYear() {
+        return publicationYear;
+    }
+
     public void setPublicationYear(int publicationYear){
         this.publicationYear = publicationYear;
     }
